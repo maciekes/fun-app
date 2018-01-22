@@ -1,0 +1,36 @@
+body {
+	background-color: #F7A0A8;
+	font-family: Verdana, sans-serif;
+	letter-spacing: 1.5px;
+}
+
+.container {
+	max-width: 1050px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+
+h1 {
+	margin-top: 60px;
+	margin-bottom: 0;
+	font-size: 60px;
+	color: #FDE4E6;
+	text-transform: uppercase;
+	text-align: center;
+}
+
+img {
+	float: left;
+	margin: 200px 15px;
+	border: 2px solid #A73742;
+	border-radius: 5px;
+	box-shadow: 0 0 1rem #A73742;
+	transition: all .4s linear;
+}
+
+.playing {
+	transform: scale(1.2);
+	border-color: #FDE4E6;
+	box-shadow: 0 0 1rem #FDE4E6;
+}
